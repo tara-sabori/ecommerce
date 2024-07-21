@@ -1,0 +1,33 @@
+.searchbox {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.searchbox input {
+    border: 1px solid lightgrey;
+    border-radius:10px;
+    padding: 10px 20px;
+    width: 300px;
+    outline: 0;
+}
+.category {
+   max-width: 100%;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom:20px;
+}
+.catTitle{
+    text-align: center;
+    border-bottom:1px solid lightgrey;
+}
+.catBody li{
+    padding: 5px;
+    display: flex;
+    margin-top: 5px;
+}
+.catBody li label{
+    margin-left: 5px;
+}

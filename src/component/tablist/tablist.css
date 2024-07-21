@@ -1,0 +1,19 @@
+.tabStyle a{
+    background-color:white!important;
+    color:#012f73!important;
+    border: 1px double #012f73;
+    margin-bottom: 10px;
+}
+.tabStyle a.active{
+    color:white!important;
+    background-color:#012f73!important;
+}
+.tab-pane img{
+    max-width: 400px;
+    max-height: 400px;
+}
+@media (max-width:576px){
+    .tab-pane img{
+        width: 100%;
+    }
+}

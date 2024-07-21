@@ -1,0 +1,46 @@
+.cardBox {
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 20px;
+    height:530px;
+    position: relative;
+}
+
+.cardImg {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #b7b6b6;
+}
+
+.cardImg img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.cardDesc {
+    display: flex;
+}
+
+.cardDesc p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 5px;
+    width: 100px;
+}
+.cardDesc a{
+    color: #474747;
+}
+.cardDesc a:hover {
+    color: #fe0479 !important;
+    text-decoration: underline !important;
+}
+.cardFooter button{
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 90%;
+}

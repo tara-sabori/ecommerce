@@ -1,0 +1,14 @@
+
+.navbar-nav a{
+    text-decoration: none;
+    color: rgb(92, 89, 89);
+    font-weight: bold;
+}
+.cartBtn{
+    position: relative!important;
+}
+.cartBtn span{
+    position: absolute!important;
+    top: -8px!important;
+    right: -7px!important;
+}
